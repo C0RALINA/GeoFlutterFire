@@ -9,7 +9,7 @@ class StreamTestWidget extends StatefulWidget {
 }
 
 class _StreamTestWidgetState extends State<StreamTestWidget> {
-  Stream<List<DocumentSnapshot>> stream;
+  late Stream<List<DocumentSnapshot>> stream;
   final _firestore = FirebaseFirestore.instance;
   final geo = Geoflutterfire();
 
